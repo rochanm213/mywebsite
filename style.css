@@ -3,6 +3,7 @@
 /*-----------------------------*/
 
 /* blue color : #66cdaa*/
+/* other color : #cd7766*/
 *{
 	margin: 0;
 	padding: 0;
@@ -105,6 +106,32 @@ header{
 .main-nav{
 	display: inline-block;
 }
+
+
+
+/*-----------------------------*/
+/*---------ABOUT ME------------*/
+/*-----------------------------*/
+
+.about-me-header{
+	color: #66cdaa;
+	width: 40vw;
+	text-align: center;
+	margin: auto;
+	margin-top: 40px;
+	padding: 0 15px;
+	transition: border 0.2s, color 0.2s;
+}
+
+.about-me-header:hover,
+.about-me-header:active{
+	border-bottom: 3px solid #cd7766;
+}
+
+.about-me-description span{
+	color: #cd7766;
+}
+
 
 
 
