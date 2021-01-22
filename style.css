@@ -52,13 +52,12 @@ header{
 	color: white;
 }
 
+
+
 .intro-box {
 	font-weight: 100;
-	position: absolute;
-	top: 50%;
-	left: 50%;
 	text-align: center;
-	transform: translate(-50%, -50%);
+	height: 80vh;
 }
 
 .intro-box h1 strong{
@@ -126,6 +125,10 @@ header{
 .about-me-header:hover,
 .about-me-header:active{
 	border-bottom: 3px solid #cd7766;
+}
+
+.about-me-description{
+	margin-top: 20px;
 }
 
 .about-me-description span{
